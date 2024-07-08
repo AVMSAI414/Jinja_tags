@@ -21,6 +21,7 @@ import printingTags,operationalTags
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("JPT/",include("printingTags.urls")),
-    path("JoperT",include("operationalTags.urls")),
+    #path("JoperT",include("operationalTags.urls")),
+    path("oper1/",include("operationalTags.urls")),
     
 ]

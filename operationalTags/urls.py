@@ -7,4 +7,5 @@ app_name="JOPT"
 
 urlpatterns = [
     path("joper/",joper,name='joper'),
+    path("oper/",oper,name="oper"),
 ]
